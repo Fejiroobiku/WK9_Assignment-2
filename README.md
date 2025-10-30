@@ -2,8 +2,8 @@
 
 **Course**: BSE: Low-Level Programming in C
 **Assignment**: WK9_Assignment 2
-**Group Members**:
 
+**Group Members**:
 - **Maxwel Okoth** – First half of all programs (core logic, structure, pointers, function design)
 - **Michael Obiku** – Second half of all programs (implementation details, memory management, testing, input/output)
 **Submission Deadline**: October 30, 2025

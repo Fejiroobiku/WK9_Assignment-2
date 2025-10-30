@@ -113,22 +113,4 @@ Original Emails (10 students):
 Emails after shrinking to 6 students:
 
 **Submitted by**: Maxwel Okoth & Michael Obiku
-**Date**: [Insert Submission Date]
-```
-
----
-
-### How to Use This README
-
-1. **Create a file** named `README.md` in your GitHub repository root.
-2. **Paste the above content**.
-3. **Replace placeholders**:
-   - `[Insert Full GitHub URL Here]`
-   - Course name/code
-   - Submission date
-4. **Commit and push**:
-   ```bash
-   git add README.md
-   git commit -m "Add detailed README with contributions - Maxwel & Michael"
-   git push
-   ```
+**Date**: 30/10/2025

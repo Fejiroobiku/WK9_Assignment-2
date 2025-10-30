@@ -30,3 +30,31 @@ int main() {
     for (int i = 0; i < INITIAL_SIZE; i++) {
         printf("%s\n", emails[i]);
     }
+
+    // Shrink array to 6 students
+    char **temp = (char **)realloc(emails, FINAL_SIZE * sizeof(char *));
+    if (temp == NULL) {
+        printf("Memory reallocation failed!\n");
+        // Free original memory before exiting
+        for (int i = 0; i < INITIAL_SIZE; i++) {
+            free(emails[i]);
+        }
+        free(emails);
+        return 1;
+    }
+    emails = temp;
+    
+    // Print emails after shrinking
+    printf("\nEmails after shrinking to 6 students:\n");
+    for (int i = 0; i < FINAL_SIZE; i++) {
+        printf("%s\n", emails[i]);
+    }
+    
+    // Free allocated memory
+    for (int i = 0; i < FINAL_SIZE; i++) {
+        free(emails[i]);
+    }
+    free(emails);
+    
+    return 0;
+}
